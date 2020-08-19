@@ -35,7 +35,7 @@ class LinkedList:
 
     def add_to_tail(self, value):
         new_node = Node(value)
-        if self.tail is None:
+        if self.head is None and self.tail is None:
             self.head = new_node
         else:
             self.tail.set_next(new_node)
