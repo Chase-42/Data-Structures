@@ -60,7 +60,10 @@ class Stack:
 '''
 3. What is the difference between using an array vs. a linked list when 
    implementing a Stack?
-   A: The methods you use to add and remove the elements are different. 
+
+   An array is a random access data structure. A linked list is a sequential access data structure. 
+   Thus the methods you use to add and remove elements are different. 
+   
 '''
 
 
